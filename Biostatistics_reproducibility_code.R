@@ -40,9 +40,7 @@ crit <- qchisq(0.95,df)
 Combpval <- 1-pchisq(C, df)
 Combpval
 
-
-###################################################################################
-# Meta-analysis
+# Meta-analysis using each of the 4 methods
 
 # demonstration of meta-analysis to obtain combined effect by multivariate meta-analysis model (method="mvma")
 mvma_res <- metaRMSTD(AorticStenosisTrials, time_horizons=c(12,24,36), MA_method="mvma")
@@ -59,6 +57,3 @@ uni_res$result
 # meta-analysis to obtain combined effect by univariate meta-analysis model of flexible parametric models (method="uni_flex")
 uni_flex_res <- metaRMSTD(AorticStenosisTrials, time_horizons=c(12,24,36), MA_method="uni_flex")
 uni_flex_res$result
-
-
-
