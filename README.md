@@ -1,4 +1,6 @@
-# MVMA_RMST_aortic_stenosis_analysis
+## Supplementary code for Multivariate meta-analysis model for the difference in restricted mean survival times (10.1093/biostatistics/kxz018)
+
+### MVMA_RMST_aortic_stenosis_analysis
 R code to reproduce the multivariate meta-analysis of aortic stenosis trials
 
 ### 1) Biostatistics_reproducibility_code_analysis.R
